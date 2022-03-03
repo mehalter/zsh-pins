@@ -1,0 +1,9 @@
+#compdef pg pd=pg pe=pg
+#autoload
+
+local all_aliases=()
+while IFS= read -r line; do
+  all_aliases+=("$line")
+done <<< "$(sed -e 's/\t/:/g' $pinfile 2>/dev/null)"
+
+_describe -t aliases 'pinned aliases:' all_aliases && return 0
