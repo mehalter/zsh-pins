@@ -1,6 +1,6 @@
-# pins
+# zsh-pins
 
-ohmyzsh plugin for pinning directories. Like a CLI folder bookmark manager (with tab completion!)
+ZSH plugin for pinning directories. Like a CLI folder bookmark manager (with tab completion!)
 
 ## Usage
 
